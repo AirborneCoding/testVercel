@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js ",
+    "start": "index.js"
   },
   "keywords": [],
   "author": "",
+  "engines": {
+    "node": "18.16.0"
+  },
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
